@@ -1,0 +1,35 @@
+*{
+    margin: 10px 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    flex-direction:column;
+}
+
+ul{
+    display: flex;
+    align-content: space-between;
+}
+
+li{
+    text-decoration: none;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    flex-direction: row;
+}
